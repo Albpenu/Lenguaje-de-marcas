@@ -30,4 +30,5 @@ Un saludo.
 **Ejercicio 5**
 
 Representar la estructura en árbol, y después escribir un documento XML que represente la siguiente información sobre la carte del menú de desayunos de un restaurante:
+
 ![Alt text](https://github.com/Albpenu/Lenguaje-de-marcas/blob/master/U1_T1_1516%20Uso%20de%20XML/Los%20hemos%20realizado%20entre%20Alejandro%20Cruz%20y%20yo/XMLpracticabasica3.png?raw=true "Optional Title")
