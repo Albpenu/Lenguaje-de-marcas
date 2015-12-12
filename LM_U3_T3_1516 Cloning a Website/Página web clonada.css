@@ -1,0 +1,246 @@
+.enlaces{
+    margin: 10px auto;
+    width: 955px;
+    overflow-y: auto;
+    text-align: right;
+}
+
+.cabecera {
+    margin: 10px auto;
+    width: 955px;
+    overflow-y: auto;
+}
+
+.encabezado {
+    border: 1px dashed black;
+    overflow-y: auto;
+
+}
+.logo {
+    float: left;
+    width: 100px;
+}
+
+.textodelencabezado {
+    margin-top: 10px;
+    width: 450px;
+    float: left;
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: right;
+    font-size: 24px;
+    margin-bottom: 0px;
+
+}
+
+h2 {
+    text-align: right;
+    font-size: 12px;
+    margin-top: 0px;
+
+
+}
+
+.try {
+    margin-top: 30px;
+    width: 200px;
+    overflow-y: auto;
+    background-color: #87C50A;
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    align-content: center;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.login {
+    margin-top: 30px;
+    width: 100px;
+    overflow-y: auto;
+    background-color: grey;
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    align-content: center;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.menu {
+    
+    margin: 10px auto;
+    background-color: #1984E2;
+    width: 955px;
+    overflow-y: auto;
+    border-radius: 5px 5px 5px 5px;
+    
+}
+
+.menu div {
+    margin: 2px 2px 2px 2px;
+    overflow-y: auto;
+    background-color: #1984E2;
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    align-content: center;
+    text-align: center;
+    
+}
+#item1 {
+    margin: 2px 2px 2px 2px;
+    overflow-y: auto;
+    background-color: #0067BC;
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    align-content: center;
+    text-align: center;
+    text-decoration:none;
+}
+
+.selector {
+    
+}
+
+option {
+    background-color: #1984E2;
+}
+
+.botonesderecha1 {
+    margin: 2px 2px 2px 2px;
+    overflow-y: auto;
+    background-color: #1984E2;
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    align-content: center;
+    text-align: center;
+}
+.contenido {
+    margin: 10px auto;
+    width: 955px;
+    height: 400px;
+    overflow-y: auto;
+    border-radius: 5px 5px 5px 5px;
+    background-image: url("1408015117Freshbooks-e1408015151924.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.textodelcontenido h1{
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 35px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+
+.textodelcontenido h2{
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 400px;
+}
+
+.textodelcontenidoinput {
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 20px; 
+
+}
+
+#textodelcontenidoinput {
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 20px; 
+    margin-right: 600px;
+    
+
+}
+
+.textodelcontenido p{
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: 50px;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 140px;
+    margin-right: 300px;
+
+}
+
+.getstarted {
+    width: 150px;
+    overflow-y: auto;
+    background-color: #87C50A;
+    float: left;
+    color: white;
+    font-family: sans-serif;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1984E2;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: blue;
+}

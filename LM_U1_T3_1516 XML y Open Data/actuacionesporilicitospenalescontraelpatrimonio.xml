@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Row>
+		<A_o>2013</A_o>
+		<Da_os_en_vivienda>4</Da_os_en_vivienda>
+		<Fraude_de_flu_do>11</Fraude_de_flu_do>
+		<Robo_en_edificio_p_blico>14</Robo_en_edificio_p_blico>
+		<Robo_en_garaje>18</Robo_en_garaje>
+		<Estafa>25</Estafa>
+		<Ocupaci_n_ilegal>35</Ocupaci_n_ilegal>
+		<Utilizaci_n_ileg_tima_veh_culo>40</Utilizaci_n_ileg_tima_veh_culo>
+		<Robo_a_persona>51</Robo_a_persona>
+		<Da_os>66</Da_os>
+		<Robo_en_veh_culo>108</Robo_en_veh_culo>
+		<Robo_en_establecimiento>111</Robo_en_establecimiento>
+		<Robo_en_vivienda>118</Robo_en_vivienda>
+		<Hurto>223</Hurto>
+		<Otros>69</Otros>
+	</Row>
+	<Row>
+		<A_o>2014</A_o>
+		<Fraude_de_flu_do>12</Fraude_de_flu_do>
+		<Robo_en_edificio_p_blico>11</Robo_en_edificio_p_blico>
+		<Robo_en_garaje>16</Robo_en_garaje>
+		<Estafa>18</Estafa>
+		<Ocupaci_n_ilegal>29</Ocupaci_n_ilegal>
+		<Utilizaci_n_ileg_tima_veh_culo>16</Utilizaci_n_ileg_tima_veh_culo>
+		<Robo_a_persona>60</Robo_a_persona>
+		<Da_os>84</Da_os>
+		<Robo_en_veh_culo>70</Robo_en_veh_culo>
+		<Robo_en_establecimiento>94</Robo_en_establecimiento>
+		<Robo_en_vivienda>68</Robo_en_vivienda>
+		<Hurto>167</Hurto>
+		<Otros>33</Otros>
+	</Row>
+</Root>

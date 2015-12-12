@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<agenda>
+	<persona>
+		
+		<nombre>Javier</nombre> 
+		<apellidos>Rodriguez Rodriguez</apellidos>
+		<telefono>955858585</telefono>		
+		<dni>44909090</dni>
+		
+	
+	</persona>
+
+	<persona>
+	<nombre>Jorge</nombre>
+	<apellidos>Garcia Cruz</apellidos>
+	<telefono>955858590</telefono>		
+	<dni>45808080</dni>
+	
+	
+	</persona>
+	
+	<persona>
+	<nombre>Alberto</nombre>
+	<apellidos>Peña Nuñez</apellidos>
+	<telefono>955686868</telefono>		
+	<dni>45707070</dni>
+	
+	
+	</persona>
+	
+	<persona>
+	<nombre>Alejandro</nombre>
+	<apellidos>Cruz Navarro</apellidos>
+	<telefono>955768080</telefono>		
+	<dni>45606060</dni>
+	
+	
+	</persona>
+	
+	<persona>
+	<nombre>Alicia</nombre>
+	<apellidos>Gordón Pérez</apellidos>
+	<telefono>954762020</telefono>		
+	<dni>46708090</dni>
+	
+	
+	</persona>
+
+
+
+
+
+</agenda>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Mensaje>
+	<Remite>
+	<Nombre>Alfredo Reino</Nombre>
+	<Email>alf@ibium.com</Email>
+	
+	</Remite>
+	
+	<Destinatario>
+	<Nombre>Bill Clinton</Nombre>
+	<Email>president@whitehouse.gov</Email>
+	
+	</Destinatario>
+	
+	<Asunto>Hola Bill</Asunto>
+
+	<Texto>
+	<Párrafo>¿Hola qué tal?</Párrafo>
+	<Párrafo>Hace mucho tiempo que no escribes. A ver si me llamas y quedamos pronto</Párrafo>
+	<Párrafo>Un saludo</Párrafo>
+	
+	</Texto>
+
+
+
+</Mensaje>

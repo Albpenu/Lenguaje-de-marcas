@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Horario>
+
+<Vuelo> 
+	<Compañia>Ryanair</Compañia>
+	<Número>1</Número>
+	<Origen>Sevilla</Origen>
+	<Destino>Madrid</Destino>
+	<Ruta>1</Ruta>
+	<Salida>11:00</Salida>
+	<Llegada>13:00</Llegada>
+
+</Vuelo>
+<Vuelo> 
+	<Compañia>Iberia</Compañia>
+	<Número>2</Número>
+	<Origen>Sevilla</Origen>
+	<Destino>Oporto</Destino>
+	<Ruta>2</Ruta>
+	<Salida>11:00</Salida>
+	<Llegada>13:30</Llegada>
+
+</Vuelo>
+<Vuelo> 
+	<Compañia>Vueling</Compañia>
+	<Número>3</Número>
+	<Origen>Sevilla</Origen>
+	<Destino>Atenas</Destino>
+	<Ruta>3</Ruta>
+	<Salida>11:00</Salida>
+	<Llegada>15:00</Llegada>
+
+</Vuelo>
+<Vuelo> 
+	<Compañia>Iberia</Compañia>
+	<Número>4</Número>
+	<Origen>Sevilla</Origen>
+	<Destino>Londres</Destino>
+	<Ruta>4</Ruta>
+	<Salida>11:00</Salida>
+	<Llegada>18:00</Llegada>
+
+</Vuelo>	
+<Vuelo> 
+	<Compañia>Ryanair</Compañia>
+	<Número>5</Número>
+	<Origen>Sevilla</Origen>
+	<Destino>Barcelona</Destino>
+	<Ruta>5</Ruta>
+	<Salida>11:00</Salida>
+	<Llegada>14:15</Llegada>
+
+</Vuelo>	
+	
+
+
+
+
+</Horario>
