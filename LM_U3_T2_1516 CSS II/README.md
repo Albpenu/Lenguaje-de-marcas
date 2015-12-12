@@ -128,6 +128,7 @@ Deben aplicarse las siguientes reglas CSS:
 7. El elemento #pie debe tener un margen superior de 1em.
 
 El resultado final deberá ser algo así:
+
 ![Alt text](https://github.com/Albpenu/Lenguaje-de-marcas/blob/master/LM_U3_T2_1516%20CSS%20II/practica3-solucion.gif?raw=true)
 
 
