@@ -1,0 +1,19 @@
+#padre {
+    position: relative;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    top: 100px;
+    left: 500px;
+    background-color: indianred;
+}
+
+#hijo {
+    position: absolute;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    top: 275px;
+    left: 275px;
+    background-color: darkorange;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <script src="jquery-1.12.0.js"></script>
+</head>
+
+<body>
+    <center>
+    <img id="imagen" src="s%C3%B3losergio.jpg" width="250" height="250" />
+    <form>
+        <input id="rango" type="range" name="points" min="-20" max="20">
+    </form>
+    </center>
+    <script>
+        $(function() {
+            $("#rango").change(function() {
+            var rango = $(this).val();
+            parseInt(rango,10);
+            var angulo = rango;
+            $("#imagen").rotate();
+            });
+        }); -HACERLO POR CSS-
+    </script>
+</body>
+
+</html>

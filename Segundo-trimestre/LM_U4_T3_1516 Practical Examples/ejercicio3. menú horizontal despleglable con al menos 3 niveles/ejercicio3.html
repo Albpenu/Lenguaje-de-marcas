@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <title>Menu desplegable usando solo CSS</title>
+    <link rel="stylesheet" type="text/css" href="ejercicio3.css"/>
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+	<style>
+        
+	</style>
+</head>
+    
+<body>
+    
+<div class="container">
+     
+<a class="toggleMenu" href="">Menú</a>
+<ul class="nav">
+    <li  class="test"><a href="">Videojuegos</a>
+        <ul>
+            <li><a href="">Plataforma:</a></li>
+            <li><a href="">PC</a>
+                <ul>
+                    <li><a href="">Género:</a></li>
+                    <li><a href="">Shooter</a>
+                        <ul>
+                            <li><a href="">Call of Duty</a></li>
+                            <li><a href="">Battlefield</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Puzle</a>
+                        <ul>
+                            <li><a href="">Braid</a></li>
+                            <li><a href="">Portal 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Carreras</a>
+                        <ul>
+                            <li><a href="">Need for Speed</a></li>
+                            <li><a href="">Project Cars</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Aventuras</a>
+                        <ul>
+                            <li><a href="">Tomb Raider</a></li>
+                            <li><a href="">Life is Strange</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Sandbox</a>
+                        <ul>
+                            <li><a href="">GTA V</a></li>
+                            <li><a href="">The witcher 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <li><a href="">PS4</a>
+                <ul>
+                    <li><a href="">Género:</a></li>
+                    <li><a href="">Shooter</a>
+                        <ul>
+                            <li><a href="">Call of Duty</a></li>
+                            <li><a href="">Battlefield</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Puzle</a>
+                        <ul>
+                            <li><a href="">Braid</a></li>
+                            <li><a href="">Portal 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Carreras</a>
+                        <ul>
+                            <li><a href="">Need for Speed</a></li>
+                            <li><a href="">Project Cars</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Aventuras</a>
+                        <ul>
+                            <li><a href="">Tomb Raider</a></li>
+                            <li><a href="">Life is Strange</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Sandbox</a>
+                        <ul>
+                            <li><a href="">GTA V</a></li>
+                            <li><a href="">The witcher 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <li><a href="">XBOXONE</a>
+                <ul>
+                    <li><a href="">Género:</a></li>
+                    <li><a href="">Shooter</a>
+                        <ul>
+                            <li><a href="">Call of Duty</a></li>
+                            <li><a href="">Battlefield</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Puzle</a>
+                        <ul>
+                            <li><a href="">Braid</a></li>
+                            <li><a href="">Portal 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Carreras</a>
+                        <ul>
+                            <li><a href="">Need for Speed</a></li>
+                            <li><a href="">Project Cars</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Aventuras</a>
+                        <ul>
+                            <li><a href="">Tomb Raider</a></li>
+                            <li><a href="">Life is Strange</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Sandbox</a>
+                        <ul>
+                            <li><a href="">GTA V</a></li>
+                            <li><a href="">The witcher 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <li><a href="">WIIU</a>
+                <ul>
+                    <li><a href="">Género:</a></li>
+                    <li><a href="">Shooter</a>
+                        <ul>
+                            <li><a href="">Call of Duty</a></li>
+                            <li><a href="">Battlefield</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Puzle</a>
+                        <ul>
+                            <li><a href="">Braid</a></li>
+                            <li><a href="">Portal 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Carreras</a>
+                        <ul>
+                            <li><a href="">Need for Speed</a></li>
+                            <li><a href="">Project Cars</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Aventuras</a>
+                        <ul>
+                            <li><a href="">Tomb Raider</a></li>
+                            <li><a href="">Life is Strange</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Sandbox</a>
+                        <ul>
+                            <li><a href="">GTA V</a></li>
+                            <li><a href="">The witcher 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    
+    <script>
+        $(document).ready(function() {
+	$(".toggleMenu").css("display", "none");
+	$(".nav li").hover(function() {
+	 	$(this).addClass('hover');
+	}, function() {
+		$(this).removeClass('hover');
+	});
+});
+    </script>
+</body>
+</html>

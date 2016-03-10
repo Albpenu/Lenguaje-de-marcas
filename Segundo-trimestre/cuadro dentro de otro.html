@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cuadro%20dentro%20de%20otro.css">
+    <script src="jquery-1.12.0.js"></script>
+</head>
+
+<body>
+    <div id="padre">
+        <div id="hijo"></div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $("body").keydown(function(e) {
+                if(parseInt($("#hijo").css('left')) >= 500) {
+                    alert("¿Dónde vas forastero?");
+                }
+                if (e.which == 37) {
+                    $("#hijo").animate({
+                        left: "-=50"
+                    });
+                } else if (e.which == 38) {
+                    $("#hijo").animate({
+                        top: "-=50"
+                    });
+                } else if (e.which == 39) {
+                    $("#hijo").animate({
+                        left: "+=50"
+                    });
+                } else if (e.which == 40) {
+                    $("#hijo").animate({
+                        top: "+=50"
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

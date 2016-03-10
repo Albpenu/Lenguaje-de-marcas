@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="jquery1.css">
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <meta charset="utf-8">
+</head>
+    
+<body>
+    <h1>ASIR (PRIMER CURSO). IES TRIANA</h1>
+    
+    <table id="horario de clase">
+        <tr><th>HORARIO</th><th>LUNES</th><th>MARTES</th><th>MIÉRCOLES</th><th>JUEVES</th><th>VIERNES</th></tr>
+        <tr><td>8:15-9:15</td><td>GBD</td><td>LM</td><td>ISO</td><td>LM</td><td>ISO</td></tr>
+        <tr><td>9:15-10:15</td><td>GBD</td><td>LM</td><td>ISO</td><td>LM</td><td>ISO</td></tr>
+        <tr><td>10:15-11:15</td><td>GBD</td><td>FOL</td><td>ISO</td><td>FOL</td><td>FDHW</td></tr>
+        <tr><td>11:15-11:45</td><td>RECREO</td><td>RECREO</td><td>RECREO</td><td>RECREO</td><td>RECREO</td></tr>
+        <tr><td>11:45-12:45</td><td>PLDRE</td><td>ISO</td><td>GBD</td><td>PLDRE</td><td>FDHW</td></tr>
+        <tr><td>12:45-13:45</td><td>PLDRE</td><td>ISO</td><td>GBD</td><td>PLDRE</td><td>FDHW</td></tr>
+        <tr><td>13:45-14:45</td><td>PLDRE</td><td>ISO</td><td>GBD</td><td>PLDRE</td><td>FOL</td></tr></center>
+    </table>
+    
+    <table class="estudiantes">
+        <tr><td>Juan Alberto Peña Núñez</td></tr>
+        <tr><td>Luigui Alvarez Ramirez</td></tr>
+        <tr><td>Daniel Gómez Montero</td></tr>
+        <tr><td>Manuel Gallardo Alejo</td></tr>
+        <tr><td>Fran Romero Velázquez</td></tr>
+        <tr><td>Felipe González</td></tr>
+        <tr><td>Alejandro Sánchez Avilés</td></tr>
+        <tr><td>Jesús Zamora Jiménez</td></tr>
+        <tr><td>Manuel Maese Martínez</td></tr>
+        <tr><td>Daniel Fernández</td></tr>
+        <tr><td>José Magdaleno Sánchez</td></tr>
+        <tr><td>Conrado Arquer de la Prada</td></tr>
+        <tr><td>Alejandro Valcárcel Maqueda</td></tr>
+        <tr><td>José Enrique Vázquez Cantero</td></tr>
+        <tr><td>Álvaro Nieto López</td></tr>
+    </table>
+    
+    <p class="show">Juan</p>
+    <p>Alberto</p>
+    <p class="show">Peña</p>
+    <p>Núñez</p>
+
+    <script>
+        $(document).ready(function(){
+        console.log ("Ready for jQuery");
+        $("h1").addClass("clase1");
+        $("th").css({"background-color":"red","color":"white"});
+        $("table.estudiantes tr:odd").addClass('odd');
+        $("table.estudiantes tr:even").addClass('even');
+        $('p').hide();
+        $('.show').show(); 
+        });
+    </script>
+</body>
+</html>

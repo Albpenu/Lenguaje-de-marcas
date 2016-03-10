@@ -1,0 +1,3 @@
+https://www.codecademy.com/learn/jquery
+http://api.jquery.com/ (documentación)
+http://api.jquery.com/category/selectors/

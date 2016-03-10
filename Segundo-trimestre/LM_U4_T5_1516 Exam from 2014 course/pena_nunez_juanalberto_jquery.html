@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="pena_nunez_juanalberto_jquery.css">
+    <script src="jquery-1.12.0.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="cabecera">
+      <div id="contenidocabecera">
+        <h3>CONTROLES GENERALES</h3>
+        <input id="omtodos" type="button" value="OCULTAR/MOSTRAR"></input>
+        <input id="resetear" type="button" value="RESETEAR"></input>
+      </div>
+    </div>
+    <div id="contenedor">
+      <div id="contenido1">
+        <div class="botones" id="boton1">
+          <input type="button" value="OCULTAR/MOSTRAR"></input>
+          <input type="button" value="+50"></input>
+          <input type="button" value="-50"></input>
+        </div>
+      </div>
+      <div id="contenido2">
+        <div class="barra" id="barra1" style="background-color:red"></div>
+      </div>
+    </div>
+    <div id="contenedor">
+      <div id="contenido1">
+        <div class="botones" id="boton2">
+          <input type="button" value="OCULTAR/MOSTRAR"></input>
+          <input type="button" value="+50"></input>
+          <input type="button" value="-50"></input>
+        </div>
+      </div>
+      <div id="contenido2">
+        <div class="barra" id="barra2" style="background-color:blue"></div>
+      </div>
+    </div>
+    <div id="contenedor">
+      <div id="contenido1">
+        <div class="botones" id="boton3">
+          <input type="button" value="OCULTAR/MOSTRAR"></input>
+          <input type="button" value="+50"></input>
+          <input type="button" value="-50"></input>
+        </div>
+      </div>
+      <div id="contenido2">
+        <div class="barra" id="barra3" style="background-color:green"></div>
+      </div>
+    </div>
+
+  <script type="text/javascript">
+    $(function() {
+      console.log("Ready for jQuery");
+      $("#omtodos").click(function() {
+          var n = $(".barra").width();
+          if (n == 0) {
+              $(".barra").animate({
+                width:"400px"
+              });
+          } else if (n > 0){
+            $(".barra").animate({
+              width:"0px"});
+            }
+      });
+
+      $("#resetear").click(function() {
+        $(".barra").width(400);
+    });
+
+      $(".botones input:first-of-type").click(function(){
+      var n = $(this).parents("#contenido1").next().children().width();
+      if (n > 0) {
+        $(this).parents("#contenido1").next().children().animate({
+          width:"0px"});
+
+      } else if (n == 0){
+        $(this).parents("#contenido1").next().children().animate({
+          width:"400px"});
+      }
+      });
+
+      $(".botones input:nth-child(2)").click(function(){
+        $(this).parents("#contenido1").next().children().css({
+          width:"+=50"});
+      });
+
+      $(".botones input:nth-child(3)").click(function(){
+        $(this).parents("#contenido1").next().children().css({
+          width:"-=50"});
+      });
+
+    });
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="act3barra21.css">
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <title>Tabla rellena de 5x5, con 3 botones debajo y haciendo uso de jQuery</title>
+</head>
+
+<body>
+    <table id="tabla" border="2px solid black" align="center">
+        <tr>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+            <td>e</td>
+        </tr>
+        <tr>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+            <td>i</td>
+            <td>j</td>
+        </tr>
+        <tr>
+            <td>k</td>
+            <td>l</td>
+            <td>m</td>
+            <td>n</td>
+            <td>ñ</td>
+        </tr>
+        <tr>
+            <td>o</td>
+            <td>p</td>
+            <td>q</td>
+            <td>r</td>
+            <td>s</td>
+        </tr>
+        <tr>
+            <td>t</td>
+            <td>u</td>
+            <td>v</td>
+            <td>w</td>
+            <td>x</td>
+        </tr>
+    
+    </table>
+    <p></p>
+    <div id="input" align="center">
+        <input id="añadir" type="button" name="añadir" value="Añadir">
+        <input id ="borrar" type="button" name="borrar" value="Borrar">
+        <input id ="rellenar" type="text" name="rellenar" value="Escribe lo que quieras y clica">
+    </div> 
+        <script>
+            $(document).ready(function(){
+                
+                $('#añadir').click(function(){
+                    $('#tabla').append('<tr><td>y</td><td>z</td><td>a</td><td>b</td><td>c</td><tr>');
+                });
+                
+                $('#borrar').click(function(){
+                    $('#tabla tr:last').remove()
+                });
+                
+                $('#rellenar').click(function(){
+                    $("#tabla tr td").empty();
+                    $("#tabla tr td").append($("#rellenar").val()).css({"text-aling":"center","font-size":"20px"});
+                });
+                
+            });   
+        </script>    
+</body>
+</html>

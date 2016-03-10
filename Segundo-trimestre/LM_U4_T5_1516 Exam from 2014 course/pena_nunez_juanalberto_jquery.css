@@ -1,0 +1,81 @@
+#cabecera {
+  width: 1000px;
+  height: 100px;
+  margin: 0px auto;
+}
+
+#contenidocabecera {
+  width: 400px;
+  height: 100px;
+  float: right;
+}
+
+#contenidocabecera h3 {
+  width: 300px;
+  height: 20px;
+  padding: 2px 0px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: mediumseagreen;
+}
+
+#omtodos {
+   width: 150px; 
+}
+
+#resetear {
+   width: 90px;
+}
+
+#contenedor {
+  width: 800px;
+  margin: 0px auto;
+  padding: 10px;
+  height: 100px;
+}
+
+#contenido1 {
+  width: 200px;
+  height: 100px;
+  float: left;
+  border-right: 1px solid black;
+}
+
+#contenido2 {
+  width: 500px;
+  height: 100px;
+  float:left;
+  border-left: 1px solid black;
+}
+
+.botones {
+  width: 100px;
+  margin: 5px 50px;
+}
+
+input {
+  width: 110px;
+  margin: 5px 0px;
+}
+
+.barra{
+  width: 400px;
+  height: 100px;
+  margin: 0px 50px;
+}
+
+#barra1 {
+    background-color: red;
+    margin-left: 20px;
+}
+
+#barra2 {
+    background-color: blue;
+    margin-left: 20px;
+}
+
+#barra3 {
+    background-color: green;
+    margin-left: 20px;
+}

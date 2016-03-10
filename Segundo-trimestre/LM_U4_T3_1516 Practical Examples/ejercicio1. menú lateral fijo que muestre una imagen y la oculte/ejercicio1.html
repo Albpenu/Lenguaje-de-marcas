@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery-1.11.3.js"></script>
+    <link rel="stylesheet" type="text/css" href="ejercicio1.css"/>
+  </head>
+  <body>
+
+      <div id="contenedor">
+            <p align="center">Ralphy dentro de una barra lateral desplegable hecha con JQuery</p>
+            <div id="contenido"><img id="gift" src="ralf-saluda.gif"> 
+                <ul>
+                    <li>Hola. Me llamo Ralph!</li>
+                    <li>Y sé contar:</li>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                        </ul>
+                    <li>hasta:</li>
+                        <ul>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10</li>
+                            <li>...</li>
+                        </ul>
+                    <li>patata!</li>          
+                </ul></p>
+          </div>
+          <div id="capa2"><img id="flechaizq" src="blue-left-arrow-26777.jpg"></div>          
+       </div>
+       <div id="capa3"><img id="flechadch" src="blue-right-arrow-26774.jpg"></div>
+      
+      
+      <script type="text/javascript">
+       
+        $(function() {
+            console.log("Ready for jQuery");
+            $("#flechadch").hide();
+            $("#contenedor").addClass("contenedor");
+            $("#contenido").addClass("contenido");
+            $("#capa2").addClass("capa2");
+            $("#capa3").addClass("capa2");
+            
+            $("#flechaizq").click(function() {
+                $("#contenedor").animate({
+					width:"toggle"
+				},1000,function() {
+                    $("#flechadch").show();
+                });                                
+            });
+            
+            $("#flechadch").click(function() {
+                $("#contenedor").animate({
+                   width:"toggle"
+                    },1000,function() {
+                     $("#flechaizq").show();
+                     $("#flechadch").hide();
+                });
+                
+            });
+        });
+      </script>
+  </body>
+</html>

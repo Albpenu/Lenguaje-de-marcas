@@ -1,0 +1,118 @@
+body {
+  background: url("19188035-Fondo-de-cuadrados-de-colores-dispuestos-en-una-matriz-con-una-distorsi-n-Foto-de-archivo.jpg") no-repeat center center fixed;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #2a2a2a;
+}
+
+ul{
+  width: 720px;
+  margin: 1px 1px 1px -40px;
+  overflow: hidden;
+}
+li {
+  height: 300px;
+  list-style: none;
+  background-color: red;
+  float: left;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 3px;
+}
+
+div.contenidoP{
+  width: 30px;
+  height: 99%;
+  margin: 0px;
+  cursor: pointer;
+  border: 1px dashed #ffaf4b;
+}
+
+div.contenidoP p:first-child{
+  width: 100px;
+  transform: rotate(-90deg);
+  position: relative;
+  margin: 10px 0px 0px -35px;
+  font: 15px Arial;
+  color: white;
+}
+
+p.numero{
+  margin-top:245px;
+  text-align: center;
+  color:white;
+  font:20px Arial;
+}
+
+div#contenido {
+  width: 500px;
+  height: 305px;
+  float: left;
+  display: none;
+  margin: 1px;
+  border-radius: 4px;
+  background-color: #f6f6f6;
+}
+
+div#padre{
+  margin: 0px auto;
+  padding: 5px;
+  width: 723px;
+  height: 319px;
+  background-color: #303030;
+  border-radius: 4px;
+  overflow: hidden;
+}
+div#hijo{
+  padding: 5px;
+  width: 710px;
+  height: 307px;
+  border: 1px dashed #ffaf4b;
+  overflow: hidden;
+}
+
+#contenido div:first-child{
+  border: 1px dashed #ffaf4b;
+  border-radius: 4px;
+  width: 90% auto;
+  height:60%;
+  margin: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
+#contenido div:last-child{
+  border:1px dashed #ffaf4b;
+  border-radius: 4px;
+  width: 90% auto;
+  height: 20%;
+  margin: 0px 30px 30px 30px;
+}
+
+#contenido div:first-child p {
+  width: 40%;
+  float: left;
+  font: 12px Arial;
+  margin:-10px 0px 0px 20px;
+}
+#contenido div:first-child img{
+  width: 250px;
+  height: 150px;
+  float: left;
+  margin: -50px 0px 0px 0px;
+}
+h3{
+  margin-left: 20px ;
+  margin-top: 25px;
+  font-family:Arial;
+}
+
+#contenido div:last-child img {
+  width: 80px ;
+  height: 50px;
+  float: left;
+  margin-left: 20px ;
+  margin-top: 5px
+
+}

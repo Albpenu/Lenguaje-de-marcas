@@ -1,0 +1,18 @@
+h1 {
+    color: white;
+  }
+
+.clase1 {
+    color: white;
+    background: black
+}
+  
+.even{
+    background: grey;
+    color:black;
+}
+
+.odd{
+    background: grey;
+    color:white;
+}

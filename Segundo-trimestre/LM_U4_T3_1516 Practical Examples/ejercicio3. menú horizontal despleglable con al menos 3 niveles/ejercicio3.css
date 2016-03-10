@@ -1,0 +1,140 @@
+body, nav, ul, li, a  {margin: 0; padding: 0;}
+a {text-decoration: none;}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 10px auto;
+}
+
+.toggleMenu {
+    display:  none;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.nav {
+    list-style: none;
+     background:green;
+     position: relative;
+}
+
+.nav:before,
+.nav:after {
+    content: " "; 
+    display: table; 
+}
+
+.nav:after {
+    clear: both;
+}
+
+.nav ul {
+    list-style: none;
+    width: 9em;
+}
+
+.nav a {
+    padding: 10px 15px;
+    color:#fff;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav > li > a {
+    display: block;
+}
+
+.nav li ul {
+    position: absolute;
+    left: -9999px;
+}
+
+.nav li li a {
+    display: block;
+    background: red;
+    position: relative;
+}
+
+.nav li li li a {
+    display: block;
+    background:blue;
+    position: relative;
+}
+
+.nav li li li li a {
+    display: block;
+    background:grey;
+    position: relative;
+}
+
+.nav li {
+    position: relative;
+}
+
+.nav > li.hover > ul {
+    left: 0;
+}
+
+.nav li li.hover ul {
+    left: 100%;
+    top: 0;
+}
+
+.nav:hover {
+    background-color: orange;
+}
+
+.nav li li a:hover {
+    background-color: orange;
+}
+
+.nav li li li a:hover {
+    background-color: orange;
+}
+
+.nav li ul li {
+position:relative;
+}
+ 
+.nav li ul li ul {
+right:-140px;
+top:0;
+}
+
+.nav li:hover > ul {
+display:block;
+}
+ 
+.nav > li {
+float:left;
+}
+ 
+.nav li a {
+background:#0c9ba0;
+color:#FFF;
+display:block;
+border:1px solid;
+padding:10px 12px;
+}
+
+.nav li ul {
+display:none;
+position:absolute;
+min-width:140px;
+}
+
+.nav li:hover > ul {
+display:block;
+}
+
+.nav li ul li {
+position:relative;
+}
+ 
+.nav li ul li ul {
+right:-140px;
+top:0;
+}

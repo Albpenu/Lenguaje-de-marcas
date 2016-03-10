@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="acordeon-estilo.css">
+    <script src="jquery-1.12.0.js"></script>
+  </head>
+  <body>
+    <div id="padre">
+    <div id="hijo">
+    <ul>
+      <li style="background-color:#cc0000">
+        <div class="contenidoP">
+          <p>features</p>
+          <p class="numero">1</p>
+        </div>
+      </li>
+      <div id="contenido"></div>
+      <li style="background-color:#cc5200">
+        <div class="contenidoP">
+          <p>design</p>
+          <p class="numero">2</p>
+        </div>
+      </li>
+      <div id="contenido"></div>
+      <li style="background-color:#2eb82e">
+        <div class="contenidoP">
+          <p>app store</p>
+          <p class="numero">3</p>
+        </div>
+      </li>
+      <div id="contenido"></div>
+      <li style="background-color:#3399ff">
+        <div class="contenidoP">
+          <p>gallery</p>
+          <p class="numero">4</p>
+        </div>
+      </li>
+      <div id="contenido">
+        <div>
+            <h3>Backlit LCD Display</h3>
+            <p>
+              The high-resolution, 9.7-inch LED-backlist IPS display on iPad is
+              remarkably crisp and vivid.
+              Which makes it perfect for web browsing, watching movies, or viewing photos.
+            </p>
+            <img src="ipad2-vs-ipad.png"/></div>
+          <div>
+            <img src="imagen2.jpg">
+            <img src="iPad.png">
+            <img src="imagen1.jpg">
+            <img src="ipad2-vs-ipad.png">
+          </div>
+      </div>
+      <li style="background-color:#cc33ff">
+        <div class="contenidoP">
+          <p>tech spec</p>
+          <p class="numero">5</p>
+        </div>
+      </li>
+      <div id="contenido"></div>
+    </ul>
+    </div>
+  </div>
+
+    <script type="text/javascript">
+    $(function() {
+      console.log("Ready for jQuery");
+      $("ul div#contenido:nth-child(4)").show();
+      $("div.contenidoP").click(function() {
+            $(this).parent("li").next().siblings("#contenido").hide(300).slideUp();
+            $(this).parent("li").next().show(300).slideDown();
+        });
+    });
+    </script>
+  </body>
+</html>

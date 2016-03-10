@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="range.css">
+    <script src="jquery-1.12.0.js"></script>
+</head>
+
+<body>
+    <center>
+    <img id="imagen" src="s%C3%B3losergio.jpg" width="200" height="200" />
+    <form>
+        <input id="rango" type="range" name="points" min="100" max="300">
+    </form>
+    </center>
+    <script>
+        $(function() {
+            $("[type=range]").on("input", function() {
+            var r=$(this).val();
+            $("#imagen").width(r).height(r);
+            });
+        });
+    </script>
+</body>
+
+</html>
